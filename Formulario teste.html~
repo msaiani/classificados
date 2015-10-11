@@ -1,0 +1,62 @@
+<html>
+<head>
+<title>Formulario teste</title>
+</head>
+
+<style type="text/css">
+	.FormBox {position: relative;}
+	.Menu {background-color: #000; width: 100%; height: 100px;}
+	body {margin: 0;}
+	#formulario{
+		margin-top: 200px;	
+		margin-left: 200px;
+	}
+</style>
+<body>
+	<div class="Menu"> <p> CLASSIFICADOS BAURU </p></div>
+   <font face="arial" color="white">
+	<!--<body style = "background:url('vender3.jpg');">	-->
+	<div id = "formulario" align="center">
+	<form class="FormBox" method="post" action="">
+		<label>Nome do vendedor:</label>   	
+   	<input type="text" name = "Nome do Vendedor"/>
+   	<br>
+   	<br>      
+      Nome do produto:  
+      <input type="text" name = "Nome do produto"/>
+   	<br>
+   	<br>
+   	Descricao:
+   	 <br>
+   	 <textarea name="Descricao" cols="20" rows="10">
+   	  </textarea>		 	
+   	<br>
+   	<br>
+       Estado do produto:
+       <br> 
+       <br>  	
+   	<input type="radio" name ="estado" value="Novo" /> Novo
+   	<br>
+   	<input type="radio" name ="estado" value="Usado" /> Usado
+      <br>
+      <br>   	
+   	Preco:   	
+   	<input type="text" name = "Preco"/>
+   	<br>
+   	<br>
+   	Formas de pagamento:
+   	<br>
+   	<br>
+		<input type="radio" name ="Formas de pagamento" value="Boleto" /> Boleto 
+   	<br>
+   	<input type="radio" name ="Formas de pagamento" value="Dinheiro" /> Dinheiro
+   	<br>
+		<input type="radio" name ="Formas de pagamento" value="Cartao de credito" /> Cartao de credito      
+      <br>
+      <br>   	
+		<input type="submit" name="enviar" value="Enviar"/>  		
+	</form>
+	</div>
+	</font> 
+</body>
+</html>

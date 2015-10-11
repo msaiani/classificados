@@ -1,0 +1,63 @@
+<html>
+<head>
+   <title>Formulario teste</title>
+   <meta charset="utf-8">
+   <link rel="stylesheet" type="text/css" href="css/style.css">
+   <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700' rel='stylesheet' type='text/css'>
+</head>
+
+
+<body>   
+   <div class="Menu"> 
+      <div class="Logo"> <p> CLASSIFICADOS BAURU </p></div>
+         <div class="links">
+            <a href="comprar.php">Comprar</a>
+            <a href="vender.php">Vender</a>
+         </div>
+   </div>
+
+   <div class="Conteudo">
+      <div id = "formulario" align="center">
+      <form class="FormBox" method="post" action="">
+         <label>Nome do vendedor:</label>    
+         <input type="text" name = "Nome do Vendedor"/>
+      <br>
+      <br>      
+      Nome do produto:  
+      <input type="text" name = "Nome do produto"/>
+      <br>
+      <br>
+      Descrição:
+       <br>
+       <textarea name="Descricao" cols="20" rows="10">
+        </textarea>        
+      <br>
+      <br>
+       Estado do produto:
+       <br> 
+       <br>    
+      <input type="radio" name ="estado" value="Novo" /> Novo
+      <br>
+      <input type="radio" name ="estado" value="Usado" /> Usado
+      <br>
+      <br>     
+      Preço:      
+      <input type="text" name = "Preco"/>
+      <br>
+      <br>
+      Formas de pagamento:
+      <br>
+      <br>
+      <input type="radio" name ="Formas de pagamento" value="Boleto" /> Boleto 
+      <br>
+      <input type="radio" name ="Formas de pagamento" value="Dinheiro" /> Dinheiro
+      <br>
+      <input type="radio" name ="Formas de pagamento" value="Cartao de credito" /> Cartão de crédito      
+      <br>
+      <br>     
+      <input type="submit" name="enviar" value="Enviar"/>      
+   </form>
+   </div>      
+   </div>
+</body>
+</html>
