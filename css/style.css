@@ -5,6 +5,7 @@
 body {margin: 0}
 
 .Menu { 
+	box-shadow: 0 0 10px black;
 	background-color: #000;
 	display: inline-block;
 	width: 100%; 
@@ -31,16 +32,50 @@ body {margin: 0}
     text-decoration: none;
 }
 
+.Menu a:hover {color: #404036}
+
 .Menu a:not(:first-of-type){
     border-left: 1px solid white;
     padding-left: 20px;
 }
 
 #formulario {
-	padding: 20px 0;
+	padding: 30px 0 0;
 	color: white;
 	font-family: 'Open Sans';
 	width: 693px;
     margin: 20px auto;
     background-image: url('../imagens/meio.jpg'); 
+}
+
+.button { 
+	width: 100%; text-align: center;
+}
+.button input {
+	text-transform: uppercase;
+    padding: 10px 20px;
+    border-radius: 25px;
+    border: none;
+    font-weight: 900;
+    background: #404036;
+    color: white;
+}
+
+#formulario input[type="text"] {
+	border: 2px solid #404036;
+    border-radius: 15px;
+    height: 25px;
+    width: 230px;
+}
+
+#formulario input, #formulario textarea {
+	margin-bottom: 30px;
+}
+
+#formulario textarea { 
+	resize: none;
+	border: 2px solid #404036;
+    border-radius: 15px;
+    width: 330px;
+
 }
