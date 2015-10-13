@@ -1,0 +1,46 @@
+@font-face {
+    font-family: arbonnie;
+    src: url(ARBONNIE.ttf);
+}
+
+body {margin: 0}
+
+.Menu { 
+    box-shadow: 0 0 10px black;
+    background-color: #000;
+    display: inline-block;
+    width: 100%; 
+}
+.links, .Logo {display: inline-block;}
+
+.links {
+    float: right;
+    padding: 40px;
+}
+
+.Logo {width: 20%;}
+
+.Menu p, .Menu a {
+    margin: 10px;
+    font-family: arbonnie;
+    font-size: 45px;
+    width: 250px;
+    text-align: center;
+    line-height: 40px;
+    padding: 10px 0px;
+    color: white;
+    text-decoration: none;
+}
+
+.Menu a:hover {color: #404036}
+
+.Menu a:not(:first-of-type){
+    border-left: 1px solid white;
+    padding-left: 20px;
+}
+
+#inicio {
+    width: 1000px;
+    margin: 20px auto;
+    background-image: url('../imagens/meio.jpg');
+}

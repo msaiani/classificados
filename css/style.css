@@ -2,6 +2,7 @@
     font-family: arbonnie;
     src: url(ARBONNIE.ttf);
 }
+
 body {margin: 0}
 
 .Menu { 
@@ -10,16 +11,15 @@ body {margin: 0}
 	display: inline-block;
 	width: 100%; 
 }
-.links, .Logo {
-	display: inline-block;
-}
+.links, .Logo {display: inline-block;}
+
 .links {
 	float: right;
     padding: 40px;
 }
-.Logo {
-	width: 20%;
-}
+
+.Logo {width: 20%;}
+
 .Menu p, .Menu a {
 	margin: 10px;
 	font-family: arbonnie;
@@ -62,8 +62,8 @@ body {margin: 0}
 }
 
 #formulario input[type="text"] {
-	border: 2px solid #404036;
-    border-radius: 15px;
+	border: 1px solid #404036;
+    border-radius: 6px;
     height: 25px;
     width: 230px;
 }
@@ -74,8 +74,8 @@ body {margin: 0}
 
 #formulario textarea { 
 	resize: none;
-	border: 2px solid #404036;
-    border-radius: 15px;
-    width: 330px;
+	border: 1px solid #404036;
+    border-radius: 6px;
+    width: 100%;
 
 }
